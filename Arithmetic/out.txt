@@ -1,0 +1,543 @@
+Initialization
+            lower_bound=000000, upper_bound=111111
+Prefix=, Symbol=c
+    Encode c
+        Update bounds with (0, 0.0909091)
+            lower_bound=000000, upper_bound=000100
+        e1 | msg=0
+            lower_bound=000000, upper_bound=001001
+        e1 | msg=00
+            lower_bound=000000, upper_bound=010011
+        e1 | msg=000
+            lower_bound=000000, upper_bound=100111
+Prefix=, Symbol=a
+    Encode a
+        Update bounds with (0.0909091, 0.363636)
+            lower_bound=000011, upper_bound=001101
+        e1 | msg=0000
+            lower_bound=000110, upper_bound=011011
+        e1 | msg=00000
+            lower_bound=001100, upper_bound=110111
+Prefix=, Symbol=t
+    Encode t
+        Update bounds with (0.363636, 0.636364)
+            lower_bound=011100, upper_bound=100111
+        e3 | cnt=1
+            lower_bound=011000, upper_bound=101111
+        e3 | cnt=2
+            lower_bound=010000, upper_bound=111111
+Prefix=, Symbol=_
+    Encode _
+        Update bounds with (0.636364, 0.818182)
+            lower_bound=101110, upper_bound=110110
+        e2 | msg=00000100
+            lower_bound=011100, upper_bound=101101
+        e3 | cnt=1
+            lower_bound=011000, upper_bound=111011
+Prefix=, Symbol=a
+    Encode a
+        Update bounds with (0.0909091, 0.363636)
+            lower_bound=011011, upper_bound=100100
+        e3 | cnt=2
+            lower_bound=010110, upper_bound=101001
+        e3 | cnt=3
+            lower_bound=001100, upper_bound=110011
+Prefix=, Symbol=t
+    Encode t
+        Update bounds with (0.363636, 0.636364)
+            lower_bound=011010, upper_bound=100100
+        e3 | cnt=4
+            lower_bound=010100, upper_bound=101001
+        e3 | cnt=5
+            lower_bound=001000, upper_bound=110011
+Prefix=, Symbol=e
+    Encode e
+        Update bounds with (0.818182, 0.909091)
+            lower_bound=101100, upper_bound=101111
+        e2 | msg=00000100100000
+            lower_bound=011000, upper_bound=011111
+        e1 | msg=000001001000000
+            lower_bound=110000, upper_bound=111111
+        e2 | msg=0000010010000001
+            lower_bound=100000, upper_bound=111111
+        e2 | msg=00000100100000011
+            lower_bound=000000, upper_bound=111111
+Prefix=, Symbol=_
+    Encode _
+        Update bounds with (0.636364, 0.818182)
+            lower_bound=101000, upper_bound=110011
+        e2 | msg=000001001000000111
+            lower_bound=010000, upper_bound=100111
+        e3 | cnt=1
+            lower_bound=000000, upper_bound=101111
+Prefix=, Symbol=h
+    Encode h
+        Update bounds with (0.909091, 1)
+            lower_bound=101011, upper_bound=101111
+        e2 | msg=00000100100000011110
+            lower_bound=010110, upper_bound=011111
+        e1 | msg=000001001000000111100
+            lower_bound=101100, upper_bound=111111
+        e2 | msg=0000010010000001111001
+            lower_bound=011000, upper_bound=111111
+Prefix=, Symbol=a
+    Encode a
+        Update bounds with (0.0909091, 0.363636)
+            lower_bound=011011, upper_bound=100101
+        e3 | cnt=1
+            lower_bound=010110, upper_bound=101011
+        e3 | cnt=2
+            lower_bound=001100, upper_bound=110111
+Prefix=, Symbol=t
+    Encode t
+        Update bounds with (0.363636, 0.636364)
+            lower_bound=011100, upper_bound=100111
+        e3 | cnt=3
+            lower_bound=011000, upper_bound=101111
+        e3 | cnt=4
+            lower_bound=010000, upper_bound=111111
+Length: 22
+Message: 0000010010000001111001
+
+Initialization
+            lower_bound=000000, upper_bound=111111
+Prefix=, Symbol=c
+    Encode c
+        Update bounds with (0.666667, 0.833333)
+            lower_bound=101010, upper_bound=110100
+        e2 | msg=1
+            lower_bound=010100, upper_bound=101001
+        e3 | cnt=1
+            lower_bound=001000, upper_bound=110011
+Prefix=c, Symbol=a
+    Encode <esc>
+        Update bounds with (0.5, 1)
+            lower_bound=011110, upper_bound=110011
+    Encode a
+        Update bounds with (0.5, 0.666667)
+            lower_bound=101001, upper_bound=101011
+        e2 | msg=110
+            lower_bound=010010, upper_bound=010111
+        e1 | msg=1100
+            lower_bound=100100, upper_bound=101111
+        e2 | msg=11001
+            lower_bound=001000, upper_bound=011111
+        e1 | msg=110010
+            lower_bound=010000, upper_bound=111111
+Prefix=a, Symbol=t
+    Encode <esc>
+        Update bounds with (0.666667, 1)
+            lower_bound=110000, upper_bound=111111
+        e2 | msg=1100101
+            lower_bound=100000, upper_bound=111111
+        e2 | msg=11001011
+            lower_bound=000000, upper_bound=111111
+    Encode t
+        Update bounds with (0.333333, 0.5)
+            lower_bound=010101, upper_bound=011111
+        e1 | msg=110010110
+            lower_bound=101010, upper_bound=111111
+        e2 | msg=1100101101
+            lower_bound=010100, upper_bound=111111
+Prefix=t, Symbol=_
+    Encode <esc>
+        Update bounds with (0.75, 1)
+            lower_bound=110101, upper_bound=111111
+        e2 | msg=11001011011
+            lower_bound=101010, upper_bound=111111
+        e2 | msg=110010110111
+            lower_bound=010100, upper_bound=111111
+    Encode _
+        Update bounds with (0.833333, 1)
+            lower_bound=111000, upper_bound=111111
+        e2 | msg=1100101101111
+            lower_bound=110000, upper_bound=111111
+        e2 | msg=11001011011111
+            lower_bound=100000, upper_bound=111111
+        e2 | msg=110010110111111
+            lower_bound=000000, upper_bound=111111
+Prefix=_, Symbol=a
+    Encode a
+        Update bounds with (0.2, 0.4)
+            lower_bound=001100, upper_bound=011000
+        e1 | msg=1100101101111110
+            lower_bound=011000, upper_bound=110001
+Prefix=a, Symbol=t
+    Encode t
+        Update bounds with (0, 0.5)
+            lower_bound=011000, upper_bound=100100
+        e3 | cnt=1
+            lower_bound=010000, upper_bound=101001
+        e3 | cnt=2
+            lower_bound=000000, upper_bound=110011
+Prefix=t, Symbol=e
+    Encode <esc>
+        Update bounds with (0.5, 1)
+            lower_bound=011010, upper_bound=110011
+    Encode <esc>
+        Update bounds with (0.857143, 1)
+            lower_bound=110000, upper_bound=110011
+        e2 | msg=1100101101111110100
+            lower_bound=100000, upper_bound=100111
+        e2 | msg=11001011011111101001
+            lower_bound=000000, upper_bound=001111
+        e1 | msg=110010110111111010010
+            lower_bound=000000, upper_bound=011111
+        e1 | msg=1100101101111110100100
+            lower_bound=000000, upper_bound=111111
+    Encode e
+        Update bounds with (0.166667, 0.333333)
+            lower_bound=001010, upper_bound=010100
+        e1 | msg=11001011011111101001000
+            lower_bound=010100, upper_bound=101001
+        e3 | cnt=1
+            lower_bound=001000, upper_bound=110011
+Prefix=e, Symbol=_
+    Encode _
+        Update bounds with (0.625, 0.75)
+            lower_bound=100011, upper_bound=101000
+        e2 | msg=1100101101111110100100010
+            lower_bound=000110, upper_bound=010001
+        e1 | msg=11001011011111101001000100
+            lower_bound=001100, upper_bound=100011
+Prefix=_, Symbol=h
+    Encode <esc>
+        Update bounds with (0.5, 1)
+            lower_bound=011000, upper_bound=100011
+        e3 | cnt=1
+            lower_bound=010000, upper_bound=100111
+        e3 | cnt=2
+            lower_bound=000000, upper_bound=101111
+    Encode <esc>
+        Update bounds with (0.888889, 1)
+            lower_bound=101010, upper_bound=101111
+        e2 | msg=11001011011111101001000100100
+            lower_bound=010100, upper_bound=011111
+        e1 | msg=110010110111111010010001001000
+            lower_bound=101000, upper_bound=111111
+        e2 | msg=1100101101111110100100010010001
+            lower_bound=010000, upper_bound=111111
+    Encode h
+        Update bounds with (0, 0.166667)
+            lower_bound=010000, upper_bound=010111
+        e1 | msg=11001011011111101001000100100010
+            lower_bound=100000, upper_bound=101111
+        e2 | msg=110010110111111010010001001000101
+            lower_bound=000000, upper_bound=011111
+        e1 | msg=1100101101111110100100010010001010
+            lower_bound=000000, upper_bound=111111
+Prefix=h, Symbol=a
+    Encode a
+        Update bounds with (0.1, 0.3)
+            lower_bound=000110, upper_bound=010010
+        e1 | msg=11001011011111101001000100100010100
+            lower_bound=001100, upper_bound=100101
+Prefix=a, Symbol=t
+    Encode t
+        Update bounds with (0, 0.666667)
+            lower_bound=001100, upper_bound=011100
+        e1 | msg=110010110111111010010001001000101000
+            lower_bound=011000, upper_bound=111001
+Length: 36
+Message: 110010110111111010010001001000101000
+
+Using 'cat∆cat∆hat' with stride=8, order=1, nsymbols=6, word_length=6
+    Fixed : 22 bits
+    PPMA  : 36 bits
+    PPMAe : 36 bits
+    PPMB  : 29 bits
+    PPMBe : 29 bits
+    PPMC  : 33 bits
+    PPMCe : 33 bits
+Time: 0.017078 seconds
+
+Using '321313201123233202003031222333122213103211130120' with stride=8, order=2, nsymbols=4, word_length=6
+    Fixed : 94 bits
+    PPMA  : 156 bits
+    PPMAe : 144 bits
+    PPMB  : 138 bits
+    PPMBe : 121 bits
+    PPMC  : 158 bits
+    PPMCe : 144 bits
+Time: 0.00381021 seconds
+
+Using '012301230123012301230123012301230123012301230123' with stride=8, order=2, nsymbols=4, word_length=6
+    Fixed : 96 bits
+    PPMA  : 30 bits
+    PPMAe : 30 bits
+    PPMB  : 35 bits
+    PPMBe : 35 bits
+    PPMC  : 29 bits
+    PPMCe : 29 bits
+Time: 0.00116202 seconds
+
+Using 'alexnet' with stride=1, order=0, nsymbols=2, word_length=63
+    Fixed : 1953707514 bits
+    PPMA  : 1953707562 bits
+    PPMAe : 1953707562 bits
+    PPMB  : 1953707642 bits
+    PPMBe : 1953707642 bits
+    PPMC  : 1953707592 bits
+    PPMCe : 1953707592 bits
+Time: 337.79 seconds
+
+Using 'alexnet' with stride=1, order=1, nsymbols=2, word_length=63
+    Fixed : 1953707514 bits
+    PPMA  : 1953297985 bits
+    PPMAe : 1953297983 bits
+    PPMB  : 1953298095 bits
+    PPMBe : 1953298091 bits
+    PPMC  : 1953298039 bits
+    PPMCe : 1953298038 bits
+Time: 664.424 seconds
+
+Using 'alexnet' with stride=1, order=2, nsymbols=2, word_length=63
+    Fixed : 1953707514 bits
+    PPMA  : 1950487075 bits
+    PPMAe : 1950487072 bits
+    PPMB  : 1950487244 bits
+    PPMBe : 1950487236 bits
+    PPMC  : 1950487181 bits
+    PPMCe : 1950487179 bits
+Time: 880.151 seconds
+
+Using 'alexnet' with stride=1, order=3, nsymbols=2, word_length=63
+    Fixed : 1953707514 bits
+    PPMA  : 1926168591 bits
+    PPMAe : 1926168585 bits
+    PPMB  : 1926168878 bits
+    PPMBe : 1926168856 bits
+    PPMC  : 1926168802 bits
+    PPMCe : 1926168796 bits
+Time: 1058.96 seconds
+
+Using 'alexnet' with stride=1, order=4, nsymbols=2, word_length=63
+    Fixed : 1953707514 bits
+    PPMA  : 1919113209 bits
+    PPMAe : 1919113186 bits
+    PPMB  : 1919113710 bits
+    PPMBe : 1919113660 bits
+    PPMC  : 1919113609 bits
+    PPMCe : 1919113590 bits
+Time: 1246.9 seconds
+
+Using 'alexnet' with stride=2, order=0, nsymbols=4, word_length=63
+    Fixed : 1941341445 bits
+    PPMA  : 1941341521 bits
+    PPMAe : 1941341521 bits
+    PPMB  : 1941341603 bits
+    PPMBe : 1941341603 bits
+    PPMC  : 1941341594 bits
+    PPMCe : 1941341594 bits
+Time: 192.785 seconds
+
+Using 'alexnet' with stride=2, order=1, nsymbols=4, word_length=63
+    Fixed : 1941341445 bits
+    PPMA  : 1914355025 bits
+    PPMAe : 1914355005 bits
+    PPMB  : 1914355349 bits
+    PPMBe : 1914355305 bits
+    PPMC  : 1914355317 bits
+    PPMCe : 1914355297 bits
+Time: 353.668 seconds
+
+Using 'alexnet' with stride=2, order=2, nsymbols=4, word_length=63
+    Fixed : 1941341445 bits
+    PPMA  : 1855928126 bits
+    PPMAe : 1855928041 bits
+    PPMB  : 1855929299 bits
+    PPMBe : 1855929131 bits
+    PPMC  : 1855929172 bits
+    PPMCe : 1855929100 bits
+Time: 467.58 seconds
+
+Using 'alexnet' with stride=2, order=3, nsymbols=4, word_length=63
+    Fixed : 1941341445 bits
+    PPMA  : 1803861888 bits
+    PPMAe : 1803861553 bits
+    PPMB  : 1803866150 bits
+    PPMBe : 1803865524 bits
+    PPMC  : 1803865619 bits
+    PPMCe : 1803865331 bits
+Time: 585.274 seconds
+
+Using 'alexnet' with stride=2, order=4, nsymbols=4, word_length=63
+    Fixed : 1941341445 bits
+    PPMA  : 1588715545 bits
+    PPMAe : 1588714337 bits
+    PPMB  : 1588730407 bits
+    PPMBe : 1588728158 bits
+    PPMC  : 1588728858 bits
+    PPMCe : 1588727816 bits
+Time: 719.507 seconds
+
+Using 'alexnet' with stride=4, order=0, nsymbols=16, word_length=63
+    Fixed : 1879726307 bits
+    PPMA  : 1879726566 bits
+    PPMAe : 1879726566 bits
+    PPMB  : 1879726904 bits
+    PPMBe : 1879726904 bits
+    PPMC  : 1879726878 bits
+    PPMCe : 1879726878 bits
+Time: 102.22 seconds
+
+Using 'alexnet' with stride=4, order=1, nsymbols=16, word_length=63
+    Fixed : 1879726307 bits
+    PPMA  : 1749533022 bits
+    PPMAe : 1749532649 bits
+    PPMB  : 1749537517 bits
+    PPMBe : 1749536747 bits
+    PPMC  : 1749536984 bits
+    PPMCe : 1749536628 bits
+Time: 195.378 seconds
+
+Using 'alexnet' with stride=4, order=2, nsymbols=16, word_length=63
+    Fixed : 1879726307 bits
+    PPMA  : 1121449266 bits
+    PPMAe : 1121445811 bits
+    PPMB  : 1121485009 bits
+    PPMBe : 1121477865 bits
+    PPMC  : 1121482109 bits
+    PPMCe : 1121478814 bits
+Time: 271.708 seconds
+
+Using 'alexnet' with stride=4, order=3, nsymbols=16, word_length=63
+    Fixed : 1879726307 bits
+    PPMA  : 666727138 bits
+    PPMAe : 666708006 bits
+    PPMB  : 666910675 bits
+    PPMBe : 666872531 bits
+    PPMC  : 666798575 bits
+    PPMCe : 666780264 bits
+Time: 397.932 seconds
+
+Using 'alexnet' with stride=4, order=4, nsymbols=16, word_length=63
+    Fixed : 1879726307 bits
+    PPMA  : 569877293 bits
+    PPMAe : 569676661 bits
+    PPMB  : 570536938 bits
+    PPMBe : 570144616 bits
+    PPMC  : 570081077 bits
+    PPMCe : 569891422 bits
+Time: 724.061 seconds
+
+Using 'alexnet' with stride=8, order=0, nsymbols=256, word_length=63
+    Fixed : 1701386035 bits
+    PPMA  : 1701390167 bits
+    PPMAe : 1701390167 bits
+    PPMB  : 1701393493 bits
+    PPMBe : 1701393493 bits
+    PPMC  : 1701393134 bits
+    PPMCe : 1701393134 bits
+Time: 62.2851 seconds
+
+Using 'alexnet' with stride=8, order=1, nsymbols=256, word_length=63
+    Fixed : 1701386035 bits
+    PPMA  : 694787101 bits
+    PPMAe : 694783952 bits
+    PPMB  : 694837354 bits
+    PPMBe : 694830843 bits
+    PPMC  : 694805826 bits
+    PPMCe : 694802708 bits
+Time: 115.876 seconds
+
+Using 'alexnet' with stride=8, order=2, nsymbols=256, word_length=63
+    Fixed : 1701386035 bits
+    PPMA  : 552521866 bits
+    PPMAe : 551791393 bits
+    PPMB  : 552727923 bits
+    PPMBe : 551280021 bits
+    PPMC  : 551913052 bits
+    PPMCe : 551188782 bits
+Time: 232.784 seconds
+
+Using 'alexnet' with stride=8, order=3, nsymbols=256, word_length=63
+    Fixed : 1701386035 bits
+    PPMA  : 549920297 bits
+    PPMAe : 548422038 bits
+    PPMB  : 549111398 bits
+    PPMBe : 546623163 bits
+    PPMC  : 547496391 bits
+    PPMCe : 546083977 bits
+Time: 658.63 seconds
+
+Using 'alexnet' with stride=8, order=4, nsymbols=256, word_length=63
+    Fixed : 1701386035 bits
+    PPMA  : 550227146 bits
+    PPMAe : 548190384 bits
+    PPMB  : 548751347 bits
+    PPMBe : 545362627 bits
+    PPMC  : 546184955 bits
+    PPMCe : 544247839 bits
+Time: 1139.55 seconds
+
+Using 'alexnet' with stride=16, order=0, nsymbols=65536, word_length=63
+    Fixed : 1046727819 bits
+    PPMA  : 1046781770 bits
+    PPMAe : 1046781770 bits
+    PPMB  : 1046789378 bits
+    PPMBe : 1046789378 bits
+    PPMC  : 1046779689 bits
+    PPMCe : 1046779689 bits
+Time: 64.0607 seconds
+
+Using 'alexnet' with stride=16, order=1, nsymbols=65536, word_length=63
+    Fixed : 1046727819 bits
+    PPMA  : 547438798 bits
+    PPMAe : 547254463 bits
+    PPMB  : 547438661 bits
+    PPMBe : 547109118 bits
+    PPMC  : 546091232 bits
+    PPMCe : 545907195 bits
+Time: 129.241 seconds
+
+Using 'alexnet' with stride=16, order=2, nsymbols=65536, word_length=63
+    Fixed : 1046727819 bits
+    PPMA  : 550101280 bits
+    PPMAe : 547959212 bits
+    PPMB  : 550006874 bits
+    PPMBe : 546424803 bits
+    PPMC  : 546877419 bits
+    PPMCe : 544822232 bits
+Time: 393.517 seconds
+
+Using 'alexnet' with stride=16, order=3, nsymbols=65536, word_length=63
+    Fixed : 1046727819 bits
+    PPMA  : 639203629 bits
+    PPMAe : 621208566 bits
+    PPMB  : 581806709 bits
+    PPMBe : 553271049 bits
+    PPMC  : 585086830 bits
+    PPMCe : 567412005 bits
+Time: 2377.58 seconds
+
+Using 'alexnet' with stride=32, order=0, nsymbols=4294967296, word_length=63
+    Fixed : 543413700 bits
+    PPMA  : 543652492 bits
+    PPMAe : 543652492 bits
+    PPMB  : 543703456 bits
+    PPMBe : 543703456 bits
+    PPMC  : 543595178 bits
+    PPMCe : 543595178 bits
+Time: 136.524 seconds
+
+Using 'alexnet' with stride=32, order=1, nsymbols=4294967296, word_length=63
+    Fixed : 543413700 bits
+    PPMA  : 552314813 bits
+    PPMAe : 548734959 bits
+    PPMB  : 546738747 bits
+    PPMBe : 540697975 bits
+    PPMC  : 544635802 bits
+    PPMCe : 541071477 bits
+Time: 752.133 seconds
+
+Using 'alexnet' with stride=32, order=2, nsymbols=4294967296, word_length=63
+    Fixed : 543413700 bits
+    PPMA  : 751533738 bits
+    PPMAe : 734104834 bits
+    PPMB  : 565161197 bits
+    PPMBe : 538838306 bits
+    PPMC  : 586307438 bits
+    PPMCe : 569106628 bits
+Time: 5015.38 seconds
+

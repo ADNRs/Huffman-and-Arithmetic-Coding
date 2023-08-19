@@ -6,7 +6,7 @@ If you are taking the course "Information Theory" or "Information Theory and Dat
 
 ## Introduction
 
-This repo only implements the **encoder** part of each algorithm for evaluating the compression efficiency of different compression algorithms. The implemented algorithms are Huffman coding, adaptive Huffman coding, extended Huffman coding, arithmetic coding, and arithmetic coding with prediction by partial matching (PPM). These algorithms support different template arguments, making experiments easier.
+This repo only implements the **encoder** part of each algorithm for evaluating the compression efficiency of different compression algorithms. The implemented algorithms are Huffman coding, adaptive Huffman coding, extended Huffman coding, arithmetic coding, and arithmetic coding with prediction by partial matching (PPM, including ppma, ppmb, and ppmc). These algorithms support different template arguments, making experiments easier.
 
 ## Usage
 

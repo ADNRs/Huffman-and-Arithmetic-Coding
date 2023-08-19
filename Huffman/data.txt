@@ -1,0 +1,2221 @@
+*********************
+* 8-bit data source *
+*********************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                244409199 (# symbol)
+Expected Codeword Length: 6.98806 (bit)
+Compression Ratio:        1.14481
+Execution Time:           0.313248 (second)
+
+**********************
+* 32-bit data source *
+**********************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          7304
+Data Size:                61102300 (# symbol)
+Expected Codeword Length: 8.91635 (bit)
+Compression Ratio:        3.58891
+Execution Time:           0.277996 (second)
+
+******************************
+* 8-bit data source 0MB-40MB *
+******************************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.89831 (bit)
+Compression Ratio:        1.1597
+Execution Time:           0.0510319 (second)
+
+*******************************
+* 8-bit data source 40MB-80MB *
+*******************************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          255
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.89537 (bit)
+Compression Ratio:        1.1602
+Execution Time:           0.0562874 (second)
+
+********************************
+* 8-bit data source 80MB-120MB *
+********************************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.89771 (bit)
+Compression Ratio:        1.1598
+Execution Time:           0.0570309 (second)
+
+*********************************
+* 8-bit data source 120MB-160MB *
+*********************************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.97172 (bit)
+Compression Ratio:        1.14749
+Execution Time:           0.0600486 (second)
+
+*********************************
+* 8-bit data source 160MB-200MB *
+*********************************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.99522 (bit)
+Compression Ratio:        1.14364
+Execution Time:           0.0591591 (second)
+
+*********************************
+* 8-bit data source 200MB-233MB *
+*********************************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                34693999 (# symbol)
+Expected Codeword Length: 7.19118 (bit)
+Compression Ratio:        1.11247
+Execution Time:           0.0487437 (second)
+
+*******************************
+* 32-bit data source 0MB-40MB *
+*******************************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          1638
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.60687 (bit)
+Compression Ratio:        3.71796
+Execution Time:           0.0540025 (second)
+
+********************************
+* 32-bit data source 40MB-80MB *
+********************************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          1019
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.59814 (bit)
+Compression Ratio:        3.72173
+Execution Time:           0.0470726 (second)
+
+*********************************
+* 32-bit data source 80MB-120MB *
+*********************************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          1011
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.60456 (bit)
+Compression Ratio:        3.71896
+Execution Time:           0.0505057 (second)
+
+**********************************
+* 32-bit data source 120MB-160MB *
+**********************************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          6508
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.87046 (bit)
+Compression Ratio:        3.60748
+Execution Time:           0.0606331 (second)
+
+**********************************
+* 32-bit data source 160MB-200MB *
+**********************************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          1294
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.91076 (bit)
+Compression Ratio:        3.59116
+Execution Time:           0.0507363 (second)
+
+**********************************
+* 32-bit data source 200MB-233MB *
+**********************************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          4555
+Data Size:                8673500 (# symbol)
+Expected Codeword Length: 9.66172 (bit)
+Compression Ratio:        3.31204
+Execution Time:           0.0554915 (second)
+
+******************************************
+* Huffman Speed Test: Naive vs Optimized *
+******************************************
+Symbol Length = 1               Naive       Optimized
+Expected Codeword Length (bit)  1.000000    1.000000
+Execution Time (second)         9.846374    1.246374
+
+Symbol Length = 2               Naive       Optimized
+Expected Codeword Length (bit)  2.000000    2.000000
+Execution Time (second)         5.602565    0.834501
+
+Symbol Length = 3               Naive       Optimized
+Expected Codeword Length (bit)  3.000000    3.000000
+Execution Time (second)         5.442183    0.656227
+
+Symbol Length = 4               Naive       Optimized
+Expected Codeword Length (bit)  3.882654    3.882654
+Execution Time (second)         4.062834    0.576476
+
+Symbol Length = 5               Naive       Optimized
+Expected Codeword Length (bit)  4.989364    4.989364
+Execution Time (second)         3.268177    0.582641
+
+Symbol Length = 6               Naive       Optimized
+Expected Codeword Length (bit)  5.876333    5.876333
+Execution Time (second)         3.341842    0.496124
+
+Symbol Length = 7               Naive       Optimized
+Expected Codeword Length (bit)  6.922937    6.922937
+Execution Time (second)         3.152292    0.482079
+
+Symbol Length = 8               Naive       Optimized
+Expected Codeword Length (bit)  6.988063    6.988063
+Execution Time (second)         2.861087    0.479246
+
+Symbol Length = 9               Naive       Optimized
+Expected Codeword Length (bit)  8.801340    8.801340
+Execution Time (second)         2.665684    0.462863
+
+Symbol Length = 10              Naive       Optimized
+Expected Codeword Length (bit)  9.341286    9.341286
+Execution Time (second)         2.650762    0.452173
+
+Symbol Length = 11              Naive       Optimized
+Expected Codeword Length (bit)  10.475774    10.475774
+Execution Time (second)         2.248426    0.450411
+
+Symbol Length = 12              Naive       Optimized
+Expected Codeword Length (bit)  9.746404    9.746404
+Execution Time (second)         2.196704    0.441181
+
+Symbol Length = 13              Naive       Optimized
+Expected Codeword Length (bit)  11.777780    11.777780
+Execution Time (second)         2.178407    0.457696
+
+Symbol Length = 14              Naive       Optimized
+Expected Codeword Length (bit)  11.460302    11.460302
+Execution Time (second)         2.231764    0.444677
+
+Symbol Length = 15              Naive       Optimized
+Expected Codeword Length (bit)  12.706127    12.706127
+Execution Time (second)         2.076519    0.449040
+
+Symbol Length = 16              Naive       Optimized
+Expected Codeword Length (bit)  8.590718    8.590718
+Execution Time (second)         3.547458    0.562049
+
+Symbol Length = 17              Naive       Optimized
+Expected Codeword Length (bit)  13.431787    13.431787
+Execution Time (second)         2.352516    0.532299
+
+Symbol Length = 18              Naive       Optimized
+Expected Codeword Length (bit)  12.784619    12.784619
+Execution Time (second)         2.465061    0.949456
+
+Symbol Length = 19              Naive       Optimized
+Expected Codeword Length (bit)  14.066561    14.066561
+Execution Time (second)         2.412383    1.805840
+
+Symbol Length = 20              Naive       Optimized
+Expected Codeword Length (bit)  12.273347    12.273347
+Execution Time (second)         5.892492    1.030106
+
+Symbol Length = 21              Naive       Optimized
+Expected Codeword Length (bit)  14.656690    14.656690
+Execution Time (second)         8.423255    2.822811
+
+Symbol Length = 22              Naive       Optimized
+Expected Codeword Length (bit)  13.937628    13.937628
+Execution Time (second)         9.053983    2.508101
+
+Symbol Length = 23              Naive       Optimized
+Expected Codeword Length (bit)  15.225559    15.225559
+Execution Time (second)         12.482511    4.837227
+
+Symbol Length = 24              Naive       Optimized
+Expected Codeword Length (bit)  12.082448    12.082448
+Execution Time (second)         5.920811    1.712504
+
+Symbol Length = 25              Naive       Optimized
+Expected Codeword Length (bit)  15.782150    15.782150
+Execution Time (second)         18.617479    6.302115
+
+Symbol Length = 26              Naive       Optimized
+Expected Codeword Length (bit)  15.049816    15.049816
+Execution Time (second)         14.533236    4.296952
+
+Symbol Length = 27              Naive       Optimized
+Expected Codeword Length (bit)  16.333457    16.333457
+Execution Time (second)         22.835926    7.342295
+
+Symbol Length = 28              Naive       Optimized
+Expected Codeword Length (bit)  14.498703    14.498703
+Execution Time (second)         10.255554    3.468081
+
+Symbol Length = 29              Naive       Optimized
+Expected Codeword Length (bit)  16.882439    16.882439
+Execution Time (second)         23.584661    8.810789
+
+Symbol Length = 30              Naive       Optimized
+Expected Codeword Length (bit)  16.150976    16.150976
+Execution Time (second)         15.317277    6.075235
+
+Symbol Length = 31              Naive       Optimized
+Expected Codeword Length (bit)  17.428386    17.428386
+Execution Time (second)         27.116275    9.501687
+
+Symbol Length = 32              Naive       Optimized
+Expected Codeword Length (bit)  8.916346    8.916346
+Execution Time (second)         2.776934    0.468951
+
+Symbol Length = 33              Naive       Optimized
+Expected Codeword Length (bit)  17.970557    17.970557
+Execution Time (second)         21.950855    9.960089
+
+Symbol Length = 34              Naive       Optimized
+Expected Codeword Length (bit)  17.243263    17.243263
+Execution Time (second)         17.417402    9.009949
+
+Symbol Length = 35              Naive       Optimized
+Expected Codeword Length (bit)  18.509565    18.509565
+Execution Time (second)         23.369985    11.429900
+
+Symbol Length = 36              Naive       Optimized
+Expected Codeword Length (bit)  16.689362    16.689362
+Execution Time (second)         13.531367    7.090315
+
+Symbol Length = 37              Naive       Optimized
+Expected Codeword Length (bit)  19.045829    19.045829
+Execution Time (second)         25.702247    11.961616
+
+Symbol Length = 38              Naive       Optimized
+Expected Codeword Length (bit)  18.324347    18.324347
+Execution Time (second)         17.018179    9.977507
+
+Symbol Length = 39              Naive       Optimized
+Expected Codeword Length (bit)  19.576195    19.576195
+Execution Time (second)         28.867282    12.554914
+
+Symbol Length = 40              Naive       Optimized
+Expected Codeword Length (bit)  16.472114    16.472114
+Execution Time (second)         13.561973    6.208635
+
+Symbol Length = 41              Naive       Optimized
+Expected Codeword Length (bit)  20.099466    20.099466
+Execution Time (second)         30.678811    13.259987
+
+Symbol Length = 42              Naive       Optimized
+Expected Codeword Length (bit)  19.388537    19.388537
+Execution Time (second)         25.229968    11.364444
+
+Symbol Length = 43              Naive       Optimized
+Expected Codeword Length (bit)  20.612719    20.612719
+Execution Time (second)         32.086224    14.573425
+
+Symbol Length = 44              Naive       Optimized
+Expected Codeword Length (bit)  18.843002    18.843002
+Execution Time (second)         20.125973    10.512454
+
+Symbol Length = 45              Naive       Optimized
+Expected Codeword Length (bit)  21.110737    21.110737
+Execution Time (second)         37.904334    14.212105
+
+Symbol Length = 46              Naive       Optimized
+Expected Codeword Length (bit)  20.418186    20.418186
+Execution Time (second)         31.031823    12.294906
+
+Symbol Length = 47              Naive       Optimized
+Expected Codeword Length (bit)  21.580968    21.580968
+Execution Time (second)         40.792250    15.161151
+
+Symbol Length = 48              Naive       Optimized
+Expected Codeword Length (bit)  17.397128    17.397128
+Execution Time (second)         14.122330    6.863788
+
+Symbol Length = 49              Naive       Optimized
+Expected Codeword Length (bit)  21.988582    21.988582
+Execution Time (second)         46.087667    15.646705
+
+Symbol Length = 50              Naive       Optimized
+Expected Codeword Length (bit)  21.323913    21.323913
+Execution Time (second)         35.119560    13.584975
+
+Symbol Length = 51              Naive       Optimized
+Expected Codeword Length (bit)  22.323076    22.323076
+Execution Time (second)         45.853672    18.357246
+
+Symbol Length = 52              Naive       Optimized
+Expected Codeword Length (bit)  20.757852    20.757852
+Execution Time (second)         29.542679    12.701017
+
+Symbol Length = 53              Naive       Optimized
+Expected Codeword Length (bit)  22.618146    22.618146
+Execution Time (second)         53.944201    21.214360
+
+Symbol Length = 54              Naive       Optimized
+Expected Codeword Length (bit)  22.032973    22.032973
+Execution Time (second)         43.543872    16.037282
+
+Symbol Length = 55              Naive       Optimized
+Expected Codeword Length (bit)  22.899552    22.899552
+Execution Time (second)         56.421805    18.182624
+
+Symbol Length = 56              Naive       Optimized
+Expected Codeword Length (bit)  20.351788    20.351788
+Execution Time (second)         29.307605    12.458840
+
+Symbol Length = 57              Naive       Optimized
+Expected Codeword Length (bit)  23.172354    23.172354
+Execution Time (second)         60.488280    18.196140
+
+Symbol Length = 58              Naive       Optimized
+Expected Codeword Length (bit)  22.694028    22.694028
+Execution Time (second)         53.873962    15.727821
+
+Symbol Length = 59              Naive       Optimized
+Expected Codeword Length (bit)  23.423688    23.423688
+Execution Time (second)         60.503052    18.758814
+
+Symbol Length = 60              Naive       Optimized
+Expected Codeword Length (bit)  22.276990    22.276990
+Execution Time (second)         40.657373    14.220824
+
+Symbol Length = 61              Naive       Optimized
+Expected Codeword Length (bit)  23.654376    23.654376
+Execution Time (second)         64.355837    20.504382
+
+Symbol Length = 62              Naive       Optimized
+Expected Codeword Length (bit)  23.288146    23.288146
+Execution Time (second)         52.584438    18.090072
+
+Symbol Length = 63              Naive       Optimized
+Expected Codeword Length (bit)  23.874968    23.874968
+Execution Time (second)         59.390850    19.115782
+
+Symbol Length = 64              Naive       Optimized
+Expected Codeword Length (bit)  17.644507    17.644507
+Execution Time (second)         13.843577    9.359365
+
+*********************
+* 4-bit data source *
+*********************
+Symbol Length:            4 (bit)
+Nonzero Symbols:          16
+Data Size:                488818398 (# symbol)
+Expected Codeword Length: 3.88265 (bit)
+Compression Ratio:        1.03022
+Execution Time:           3.75573 (second)
+
+*********************
+* 3-bit data source *
+*********************
+Symbol Length:            3 (bit)
+Nonzero Symbols:          8
+Data Size:                651757864 (# symbol)
+Expected Codeword Length: 3 (bit)
+Compression Ratio:        1
+Execution Time:           4.99287 (second)
+
+*********************
+* 2-bit data source *
+*********************
+Symbol Length:            2 (bit)
+Nonzero Symbols:          4
+Data Size:                977636796 (# symbol)
+Expected Codeword Length: 2 (bit)
+Compression Ratio:        1
+Execution Time:           5.69321 (second)
+
+*********************
+* 5-bit data source *
+*********************
+Symbol Length:            5 (bit)
+Nonzero Symbols:          32
+Data Size:                391054719 (# symbol)
+Expected Codeword Length: 4.98936 (bit)
+Compression Ratio:        1.00213
+Execution Time:           3.53186 (second)
+
+*********************
+* 6-bit data source *
+*********************
+Symbol Length:            6 (bit)
+Nonzero Symbols:          64
+Data Size:                325878932 (# symbol)
+Expected Codeword Length: 5.87633 (bit)
+Compression Ratio:        1.02105
+Execution Time:           3.26243 (second)
+
+*********************
+* 7-bit data source *
+*********************
+Symbol Length:            7 (bit)
+Nonzero Symbols:          128
+Data Size:                279324799 (# symbol)
+Expected Codeword Length: 6.92294 (bit)
+Compression Ratio:        1.01113
+Execution Time:           2.94193 (second)
+
+*********************
+* 1-bit data source *
+*********************
+Symbol Length:            1 (bit)
+Nonzero Symbols:          2
+Data Size:                1955273592 (# symbol)
+Expected Codeword Length: 1 (bit)
+Compression Ratio:        1
+Execution Time:           9.61279 (second)
+
+*********************
+* 8-bit data source *
+*********************
+Symbol Length:            8 (bit)
+Nonzero Symbols:          256
+Data Size:                244409199 (# symbol)
+Expected Codeword Length: 6.98806 (bit)
+Compression Ratio:        1.14481
+Execution Time:           2.74609 (second)
+
+*********************
+* 9-bit data source *
+*********************
+Symbol Length:            9 (bit)
+Nonzero Symbols:          512
+Data Size:                217252622 (# symbol)
+Expected Codeword Length: 8.80134 (bit)
+Compression Ratio:        1.02257
+Execution Time:           2.50893 (second)
+
+**********************
+* 10-bit data source *
+**********************
+Symbol Length:            10 (bit)
+Nonzero Symbols:          1024
+Data Size:                195527360 (# symbol)
+Expected Codeword Length: 9.34129 (bit)
+Compression Ratio:        1.07052
+Execution Time:           2.41298 (second)
+
+**********************
+* 11-bit data source *
+**********************
+Symbol Length:            11 (bit)
+Nonzero Symbols:          2048
+Data Size:                177752145 (# symbol)
+Expected Codeword Length: 10.4758 (bit)
+Compression Ratio:        1.05004
+Execution Time:           2.31691 (second)
+
+**********************
+* 12-bit data source *
+**********************
+Symbol Length:            12 (bit)
+Nonzero Symbols:          3869
+Data Size:                162939466 (# symbol)
+Expected Codeword Length: 9.7464 (bit)
+Compression Ratio:        1.23122
+Execution Time:           2.14049 (second)
+
+**********************
+* 13-bit data source *
+**********************
+Symbol Length:            13 (bit)
+Nonzero Symbols:          8127
+Data Size:                150405661 (# symbol)
+Expected Codeword Length: 11.7778 (bit)
+Compression Ratio:        1.10377
+Execution Time:           2.08919 (second)
+
+**********************
+* 14-bit data source *
+**********************
+Symbol Length:            14 (bit)
+Nonzero Symbols:          13236
+Data Size:                139662400 (# symbol)
+Expected Codeword Length: 11.4603 (bit)
+Compression Ratio:        1.22161
+Execution Time:           2.0299 (second)
+
+**********************
+* 15-bit data source *
+**********************
+Symbol Length:            15 (bit)
+Nonzero Symbols:          26718
+Data Size:                130351573 (# symbol)
+Expected Codeword Length: 12.7061 (bit)
+Compression Ratio:        1.18053
+Execution Time:           2.02585 (second)
+
+**********************
+* 17-bit data source *
+**********************
+Symbol Length:            17 (bit)
+Nonzero Symbols:          64672
+Data Size:                115016094 (# symbol)
+Expected Codeword Length: 13.4318 (bit)
+Compression Ratio:        1.26565
+Execution Time:           2.14065 (second)
+
+**********************
+* 18-bit data source *
+**********************
+Symbol Length:            18 (bit)
+Nonzero Symbols:          59003
+Data Size:                108626311 (# symbol)
+Expected Codeword Length: 12.7846 (bit)
+Compression Ratio:        1.40794
+Execution Time:           2.34895 (second)
+
+**********************
+* 16-bit data source *
+**********************
+Symbol Length:            16 (bit)
+Nonzero Symbols:          2874
+Data Size:                122204600 (# symbol)
+Expected Codeword Length: 8.59072 (bit)
+Compression Ratio:        1.86248
+Execution Time:           3.63466 (second)
+
+**********************
+* 19-bit data source *
+**********************
+Symbol Length:            19 (bit)
+Nonzero Symbols:          145885
+Data Size:                102909137 (# symbol)
+Expected Codeword Length: 14.0666 (bit)
+Compression Ratio:        1.35072
+Execution Time:           2.48173 (second)
+
+**********************
+* 20-bit data source *
+**********************
+Symbol Length:            20 (bit)
+Nonzero Symbols:          72913
+Data Size:                97763680 (# symbol)
+Expected Codeword Length: 12.2733 (bit)
+Compression Ratio:        1.62955
+Execution Time:           6.52212 (second)
+
+**********************
+* 21-bit data source *
+**********************
+Symbol Length:            21 (bit)
+Nonzero Symbols:          315590
+Data Size:                93108267 (# symbol)
+Expected Codeword Length: 14.6567 (bit)
+Compression Ratio:        1.43279
+Execution Time:           10.607 (second)
+
+**********************
+* 22-bit data source *
+**********************
+Symbol Length:            22 (bit)
+Nonzero Symbols:          256320
+Data Size:                88876073 (# symbol)
+Expected Codeword Length: 13.9376 (bit)
+Compression Ratio:        1.57846
+Execution Time:           12.8841 (second)
+
+**********************
+* 24-bit data source *
+**********************
+Symbol Length:            24 (bit)
+Nonzero Symbols:          220440
+Data Size:                81469733 (# symbol)
+Expected Codeword Length: 12.0824 (bit)
+Compression Ratio:        1.98635
+Execution Time:           8.50283 (second)
+
+**********************
+* 23-bit data source *
+**********************
+Symbol Length:            23 (bit)
+Nonzero Symbols:          571663
+Data Size:                85011896 (# symbol)
+Expected Codeword Length: 15.2256 (bit)
+Compression Ratio:        1.51062
+Execution Time:           21.6179 (second)
+
+**********************
+* 26-bit data source *
+**********************
+Symbol Length:            26 (bit)
+Nonzero Symbols:          613116
+Data Size:                75202831 (# symbol)
+Expected Codeword Length: 15.0498 (bit)
+Compression Ratio:        1.7276
+Execution Time:           17.434 (second)
+
+**********************
+* 25-bit data source *
+**********************
+Symbol Length:            25 (bit)
+Nonzero Symbols:          846675
+Data Size:                78210944 (# symbol)
+Expected Codeword Length: 15.7821 (bit)
+Compression Ratio:        1.58407
+Execution Time:           23.1124 (second)
+
+**********************
+* 28-bit data source *
+**********************
+Symbol Length:            28 (bit)
+Nonzero Symbols:          506049
+Data Size:                69831200 (# symbol)
+Expected Codeword Length: 14.4987 (bit)
+Compression Ratio:        1.93121
+Execution Time:           12.6306 (second)
+
+**********************
+* 27-bit data source *
+**********************
+Symbol Length:            27 (bit)
+Nonzero Symbols:          1115887
+Data Size:                72417541 (# symbol)
+Expected Codeword Length: 16.3335 (bit)
+Compression Ratio:        1.65305
+Execution Time:           23.5943 (second)
+
+**********************
+* 32-bit data source *
+**********************
+Symbol Length:            32 (bit)
+Nonzero Symbols:          7304
+Data Size:                61102300 (# symbol)
+Expected Codeword Length: 8.91635 (bit)
+Compression Ratio:        3.58891
+Execution Time:           2.81622 (second)
+
+**********************
+* 30-bit data source *
+**********************
+Symbol Length:            30 (bit)
+Nonzero Symbols:          959509
+Data Size:                65175787 (# symbol)
+Expected Codeword Length: 16.151 (bit)
+Compression Ratio:        1.85747
+Execution Time:           19.8979 (second)
+
+**********************
+* 29-bit data source *
+**********************
+Symbol Length:            29 (bit)
+Nonzero Symbols:          1387524
+Data Size:                67423228 (# symbol)
+Expected Codeword Length: 16.8824 (bit)
+Compression Ratio:        1.71776
+Execution Time:           25.5039 (second)
+
+**********************
+* 33-bit data source *
+**********************
+Symbol Length:            33 (bit)
+Nonzero Symbols:          1974313
+Data Size:                59250715 (# symbol)
+Expected Codeword Length: 17.9706 (bit)
+Compression Ratio:        1.83634
+Execution Time:           17.5512 (second)
+
+**********************
+* 31-bit data source *
+**********************
+Symbol Length:            31 (bit)
+Nonzero Symbols:          1668529
+Data Size:                63073342 (# symbol)
+Expected Codeword Length: 17.4284 (bit)
+Compression Ratio:        1.77871
+Execution Time:           26.1809 (second)
+
+**********************
+* 34-bit data source *
+**********************
+Symbol Length:            34 (bit)
+Nonzero Symbols:          1349759
+Data Size:                57508047 (# symbol)
+Expected Codeword Length: 17.2433 (bit)
+Compression Ratio:        1.97178
+Execution Time:           15.0464 (second)
+
+**********************
+* 36-bit data source *
+**********************
+Symbol Length:            36 (bit)
+Nonzero Symbols:          986705
+Data Size:                54313156 (# symbol)
+Expected Codeword Length: 16.6894 (bit)
+Compression Ratio:        2.15706
+Execution Time:           12.3039 (second)
+
+**********************
+* 35-bit data source *
+**********************
+Symbol Length:            35 (bit)
+Nonzero Symbols:          2298513
+Data Size:                55864960 (# symbol)
+Expected Codeword Length: 18.5096 (bit)
+Compression Ratio:        1.89091
+Execution Time:           18.2747 (second)
+
+**********************
+* 37-bit data source *
+**********************
+Symbol Length:            37 (bit)
+Nonzero Symbols:          2674523
+Data Size:                52845233 (# symbol)
+Expected Codeword Length: 19.0458 (bit)
+Compression Ratio:        1.94268
+Execution Time:           18.4063 (second)
+
+**********************
+* 38-bit data source *
+**********************
+Symbol Length:            38 (bit)
+Nonzero Symbols:          1832127
+Data Size:                51454569 (# symbol)
+Expected Codeword Length: 18.3243 (bit)
+Compression Ratio:        2.07374
+Execution Time:           16.2498 (second)
+
+**********************
+* 40-bit data source *
+**********************
+Symbol Length:            40 (bit)
+Nonzero Symbols:          836047
+Data Size:                48881840 (# symbol)
+Expected Codeword Length: 16.4721 (bit)
+Compression Ratio:        2.42835
+Execution Time:           11.7123 (second)
+
+**********************
+* 39-bit data source *
+**********************
+Symbol Length:            39 (bit)
+Nonzero Symbols:          3171775
+Data Size:                50135221 (# symbol)
+Expected Codeword Length: 19.5762 (bit)
+Compression Ratio:        1.99222
+Execution Time:           17.4279 (second)
+
+**********************
+* 41-bit data source *
+**********************
+Symbol Length:            41 (bit)
+Nonzero Symbols:          3842520
+Data Size:                47689600 (# symbol)
+Expected Codeword Length: 20.0995 (bit)
+Compression Ratio:        2.03986
+Execution Time:           18.7672 (second)
+
+**********************
+* 42-bit data source *
+**********************
+Symbol Length:            42 (bit)
+Nonzero Symbols:          2700352
+Data Size:                46554134 (# symbol)
+Expected Codeword Length: 19.3885 (bit)
+Compression Ratio:        2.16623
+Execution Time:           16.7742 (second)
+
+**********************
+* 44-bit data source *
+**********************
+Symbol Length:            44 (bit)
+Nonzero Symbols:          2049967
+Data Size:                44438037 (# symbol)
+Expected Codeword Length: 18.843 (bit)
+Compression Ratio:        2.33508
+Execution Time:           14.7164 (second)
+
+**********************
+* 43-bit data source *
+**********************
+Symbol Length:            43 (bit)
+Nonzero Symbols:          4597524
+Data Size:                45471479 (# symbol)
+Expected Codeword Length: 20.6127 (bit)
+Compression Ratio:        2.08609
+Execution Time:           19.0333 (second)
+
+**********************
+* 48-bit data source *
+**********************
+Symbol Length:            48 (bit)
+Nonzero Symbols:          1067299
+Data Size:                40734867 (# symbol)
+Expected Codeword Length: 17.3971 (bit)
+Compression Ratio:        2.75908
+Execution Time:           12.6857 (second)
+
+**********************
+* 45-bit data source *
+**********************
+Symbol Length:            45 (bit)
+Nonzero Symbols:          5574508
+Data Size:                43450525 (# symbol)
+Expected Codeword Length: 21.1107 (bit)
+Compression Ratio:        2.13162
+Execution Time:           20.1955 (second)
+
+**********************
+* 46-bit data source *
+**********************
+Symbol Length:            46 (bit)
+Nonzero Symbols:          4116671
+Data Size:                42505948 (# symbol)
+Expected Codeword Length: 20.4182 (bit)
+Compression Ratio:        2.25289
+Execution Time:           19.3429 (second)
+
+**********************
+* 47-bit data source *
+**********************
+Symbol Length:            47 (bit)
+Nonzero Symbols:          7172809
+Data Size:                41601566 (# symbol)
+Expected Codeword Length: 21.581 (bit)
+Compression Ratio:        2.17784
+Execution Time:           20.821 (second)
+
+**********************
+* 50-bit data source *
+**********************
+Symbol Length:            50 (bit)
+Nonzero Symbols:          7500657
+Data Size:                39105472 (# symbol)
+Expected Codeword Length: 21.3239 (bit)
+Compression Ratio:        2.34479
+Execution Time:           22.0423 (second)
+
+**********************
+* 52-bit data source *
+**********************
+Symbol Length:            52 (bit)
+Nonzero Symbols:          6811405
+Data Size:                37601416 (# symbol)
+Expected Codeword Length: 20.7579 (bit)
+Compression Ratio:        2.50508
+Execution Time:           18.1383 (second)
+
+**********************
+* 49-bit data source *
+**********************
+Symbol Length:            49 (bit)
+Nonzero Symbols:          9437760
+Data Size:                39903543 (# symbol)
+Expected Codeword Length: 21.9886 (bit)
+Compression Ratio:        2.22843
+Execution Time:           26.2849 (second)
+
+**********************
+* 51-bit data source *
+**********************
+Symbol Length:            51 (bit)
+Nonzero Symbols:          11646033
+Data Size:                38338698 (# symbol)
+Expected Codeword Length: 22.3231 (bit)
+Compression Ratio:        2.28463
+Execution Time:           27.1309 (second)
+
+**********************
+* 54-bit data source *
+**********************
+Symbol Length:            54 (bit)
+Nonzero Symbols:          11138194
+Data Size:                36208771 (# symbol)
+Expected Codeword Length: 22.033 (bit)
+Compression Ratio:        2.45087
+Execution Time:           19.3297 (second)
+
+**********************
+* 53-bit data source *
+**********************
+Symbol Length:            53 (bit)
+Nonzero Symbols:          13470491
+Data Size:                36891955 (# symbol)
+Expected Codeword Length: 22.6181 (bit)
+Compression Ratio:        2.34325
+Execution Time:           22.7355 (second)
+
+**********************
+* 56-bit data source *
+**********************
+Symbol Length:            56 (bit)
+Nonzero Symbols:          7320492
+Data Size:                34915600 (# symbol)
+Expected Codeword Length: 20.3518 (bit)
+Compression Ratio:        2.7516
+Execution Time:           18.9858 (second)
+
+**********************
+* 55-bit data source *
+**********************
+Symbol Length:            55 (bit)
+Nonzero Symbols:          15050240
+Data Size:                35550429 (# symbol)
+Expected Codeword Length: 22.8996 (bit)
+Compression Ratio:        2.40179
+Execution Time:           24.3691 (second)
+
+**********************
+* 57-bit data source *
+**********************
+Symbol Length:            57 (bit)
+Nonzero Symbols:          16522772
+Data Size:                34303046 (# symbol)
+Expected Codeword Length: 23.1724 (bit)
+Compression Ratio:        2.45983
+Execution Time:           24.5068 (second)
+
+**********************
+* 58-bit data source *
+**********************
+Symbol Length:            58 (bit)
+Nonzero Symbols:          14121423
+Data Size:                33711614 (# symbol)
+Expected Codeword Length: 22.694 (bit)
+Compression Ratio:        2.55574
+Execution Time:           21.7566 (second)
+
+**********************
+* 60-bit data source *
+**********************
+Symbol Length:            60 (bit)
+Nonzero Symbols:          12431384
+Data Size:                32587894 (# symbol)
+Expected Codeword Length: 22.277 (bit)
+Compression Ratio:        2.69336
+Execution Time:           22.0006 (second)
+
+**********************
+* 59-bit data source *
+**********************
+Symbol Length:            59 (bit)
+Nonzero Symbols:          18031482
+Data Size:                33140231 (# symbol)
+Expected Codeword Length: 23.4237 (bit)
+Compression Ratio:        2.51882
+Execution Time:           26.0502 (second)
+
+**********************
+* 64-bit data source *
+**********************
+Symbol Length:            64 (bit)
+Nonzero Symbols:          1003725
+Data Size:                30551150 (# symbol)
+Expected Codeword Length: 17.6445 (bit)
+Compression Ratio:        3.62719
+Execution Time:           11.2858 (second)
+
+**********************
+* 62-bit data source *
+**********************
+Symbol Length:            62 (bit)
+Nonzero Symbols:          17070751
+Data Size:                31536671 (# symbol)
+Expected Codeword Length: 23.2881 (bit)
+Compression Ratio:        2.6623
+Execution Time:           28.1798 (second)
+
+**********************
+* 61-bit data source *
+**********************
+Symbol Length:            61 (bit)
+Nonzero Symbols:          19423728
+Data Size:                32053666 (# symbol)
+Expected Codeword Length: 23.6544 (bit)
+Compression Ratio:        2.5788
+Execution Time:           34.8645 (second)
+
+**********************
+* 63-bit data source *
+**********************
+Symbol Length:            63 (bit)
+Nonzero Symbols:          20640476
+Data Size:                31036089 (# symbol)
+Expected Codeword Length: 23.875 (bit)
+Compression Ratio:        2.63875
+Execution Time:           30.3134 (second)
+
+**********************
+* 65-bit data source *
+**********************
+Symbol Length:            65 (bit)
+Nonzero Symbols:          21797188
+Data Size:                30081133 (# symbol)
+Expected Codeword Length: 24.092 (bit)
+Compression Ratio:        2.69799
+Execution Time:           25.5328 (second)
+
+**********************
+* 66-bit data source *
+**********************
+Symbol Length:            66 (bit)
+Nonzero Symbols:          19620676
+Data Size:                29625358 (# symbol)
+Expected Codeword Length: 23.8316 (bit)
+Compression Ratio:        2.76943
+Execution Time:           23.0692 (second)
+
+**********************
+* 68-bit data source *
+**********************
+Symbol Length:            68 (bit)
+Nonzero Symbols:          17681493
+Data Size:                28754024 (# symbol)
+Expected Codeword Length: 23.6116 (bit)
+Compression Ratio:        2.87994
+Execution Time:           22.5087 (second)
+
+**********************
+* 67-bit data source *
+**********************
+Symbol Length:            67 (bit)
+Nonzero Symbols:          22939452
+Data Size:                29183188 (# symbol)
+Expected Codeword Length: 24.2731 (bit)
+Compression Ratio:        2.76026
+Execution Time:           27.4869 (second)
+
+**********************
+* 69-bit data source *
+**********************
+Symbol Length:            69 (bit)
+Nonzero Symbols:          23778881
+Data Size:                28337299 (# symbol)
+Expected Codeword Length: 24.4043 (bit)
+Compression Ratio:        2.82737
+Execution Time:           28.6041 (second)
+
+**********************
+* 70-bit data source *
+**********************
+Symbol Length:            70 (bit)
+Nonzero Symbols:          22047197
+Data Size:                27932480 (# symbol)
+Expected Codeword Length: 24.2395 (bit)
+Compression Ratio:        2.88785
+Execution Time:           29.397 (second)
+
+**********************
+* 72-bit data source *
+**********************
+Symbol Length:            72 (bit)
+Nonzero Symbols:          16319562
+Data Size:                27156578 (# symbol)
+Expected Codeword Length: 23.4907 (bit)
+Compression Ratio:        3.06505
+Execution Time:           28.7603 (second)
+
+**********************
+* 71-bit data source *
+**********************
+Symbol Length:            71 (bit)
+Nonzero Symbols:          24331109
+Data Size:                27539065 (# symbol)
+Expected Codeword Length: 24.5045 (bit)
+Compression Ratio:        2.89743
+Execution Time:           38.3986 (second)
+
+**********************
+* 73-bit data source *
+**********************
+Symbol Length:            73 (bit)
+Nonzero Symbols:          24734244
+Data Size:                26784570 (# symbol)
+Expected Codeword Length: 24.5804 (bit)
+Compression Ratio:        2.96984
+Execution Time:           28.7348 (second)
+
+**********************
+* 74-bit data source *
+**********************
+Symbol Length:            74 (bit)
+Nonzero Symbols:          23546949
+Data Size:                26422617 (# symbol)
+Expected Codeword Length: 24.489 (bit)
+Compression Ratio:        3.02176
+Execution Time:           28.1618 (second)
+
+**********************
+* 75-bit data source *
+**********************
+Symbol Length:            75 (bit)
+Nonzero Symbols:          24827455
+Data Size:                26070315 (# symbol)
+Expected Codeword Length: 24.6132 (bit)
+Compression Ratio:        3.04714
+Execution Time:           30.7097 (second)
+
+**********************
+* 76-bit data source *
+**********************
+Symbol Length:            76 (bit)
+Nonzero Symbols:          22168494
+Data Size:                25727285 (# symbol)
+Expected Codeword Length: 24.3828 (bit)
+Compression Ratio:        3.11695
+Execution Time:           32.2824 (second)
+
+**********************
+* 77-bit data source *
+**********************
+Symbol Length:            77 (bit)
+Nonzero Symbols:          24556247
+Data Size:                25393164 (# symbol)
+Expected Codeword Length: 24.6103 (bit)
+Compression Ratio:        3.12878
+Execution Time:           31.2214 (second)
+
+**********************
+* 78-bit data source *
+**********************
+Symbol Length:            78 (bit)
+Nonzero Symbols:          23680925
+Data Size:                25067611 (# symbol)
+Expected Codeword Length: 24.5435 (bit)
+Compression Ratio:        3.17803
+Execution Time:           24.815 (second)
+
+**********************
+* 80-bit data source *
+**********************
+Symbol Length:            80 (bit)
+Nonzero Symbols:          17623244
+Data Size:                24440920 (# symbol)
+Expected Codeword Length: 23.8698 (bit)
+Compression Ratio:        3.35152
+Execution Time:           24.3364 (second)
+
+**********************
+* 79-bit data source *
+**********************
+Symbol Length:            79 (bit)
+Nonzero Symbols:          24121107
+Data Size:                24750299 (# symbol)
+Expected Codeword Length: 24.5918 (bit)
+Compression Ratio:        3.21246
+Execution Time:           26.3131 (second)
+
+**********************
+* 81-bit data source *
+**********************
+Symbol Length:            81 (bit)
+Nonzero Symbols:          23651296
+Data Size:                24139181 (# symbol)
+Expected Codeword Length: 24.5684 (bit)
+Compression Ratio:        3.29691
+Execution Time:           25.0367 (second)
+
+**********************
+* 82-bit data source *
+**********************
+Symbol Length:            82 (bit)
+Nonzero Symbols:          22993856
+Data Size:                23844800 (# symbol)
+Expected Codeword Length: 24.518 (bit)
+Compression Ratio:        3.34449
+Execution Time:           24.5743 (second)
+
+**********************
+* 83-bit data source *
+**********************
+Symbol Length:            83 (bit)
+Nonzero Symbols:          23167321
+Data Size:                23557514 (# symbol)
+Expected Codeword Length: 24.5417 (bit)
+Compression Ratio:        3.382
+Execution Time:           28.6774 (second)
+
+**********************
+* 84-bit data source *
+**********************
+Symbol Length:            84 (bit)
+Nonzero Symbols:          21894203
+Data Size:                23277067 (# symbol)
+Expected Codeword Length: 24.4298 (bit)
+Compression Ratio:        3.43842
+Execution Time:           26.0645 (second)
+
+**********************
+* 85-bit data source *
+**********************
+Symbol Length:            85 (bit)
+Nonzero Symbols:          22694155
+Data Size:                23003219 (# symbol)
+Expected Codeword Length: 24.5139 (bit)
+Compression Ratio:        3.46743
+Execution Time:           23.7598 (second)
+
+**********************
+* 86-bit data source *
+**********************
+Symbol Length:            86 (bit)
+Nonzero Symbols:          22196550
+Data Size:                22735740 (# symbol)
+Expected Codeword Length: 24.4749 (bit)
+Compression Ratio:        3.51381
+Execution Time:           27.2386 (second)
+
+**********************
+* 88-bit data source *
+**********************
+Symbol Length:            88 (bit)
+Nonzero Symbols:          20299032
+Data Size:                22219019 (# symbol)
+Expected Codeword Length: 24.2951 (bit)
+Compression Ratio:        3.62213
+Execution Time:           22.4629 (second)
+
+**********************
+* 87-bit data source *
+**********************
+Symbol Length:            87 (bit)
+Nonzero Symbols:          22240805
+Data Size:                22474410 (# symbol)
+Expected Codeword Length: 24.4858 (bit)
+Compression Ratio:        3.55308
+Execution Time:           25.7013 (second)
+
+**********************
+* 89-bit data source *
+**********************
+Symbol Length:            89 (bit)
+Nonzero Symbols:          21801503
+Data Size:                21969367 (# symbol)
+Expected Codeword Length: 24.4572 (bit)
+Compression Ratio:        3.63901
+Execution Time:           22.3392 (second)
+
+**********************
+* 90-bit data source *
+**********************
+Symbol Length:            90 (bit)
+Nonzero Symbols:          21434335
+Data Size:                21725263 (# symbol)
+Expected Codeword Length: 24.4281 (bit)
+Compression Ratio:        3.68429
+Execution Time:           20.3149 (second)
+
+**********************
+* 91-bit data source *
+**********************
+Symbol Length:            91 (bit)
+Nonzero Symbols:          21360663
+Data Size:                21486523 (# symbol)
+Expected Codeword Length: 24.4265 (bit)
+Compression Ratio:        3.72546
+Execution Time:           20.7641 (second)
+
+**********************
+* 92-bit data source *
+**********************
+Symbol Length:            92 (bit)
+Nonzero Symbols:          20793319
+Data Size:                21252974 (# symbol)
+Expected Codeword Length: 24.3762 (bit)
+Compression Ratio:        3.77417
+Execution Time:           23.5603 (second)
+
+**********************
+* 93-bit data source *
+**********************
+Symbol Length:            93 (bit)
+Nonzero Symbols:          20933230
+Data Size:                21024448 (# symbol)
+Expected Codeword Length: 24.3953 (bit)
+Compression Ratio:        3.81222
+Execution Time:           18.444 (second)
+
+**********************
+* 94-bit data source *
+**********************
+Symbol Length:            94 (bit)
+Nonzero Symbols:          20649124
+Data Size:                20800783 (# symbol)
+Expected Codeword Length: 24.372 (bit)
+Compression Ratio:        3.85688
+Execution Time:           19.7848 (second)
+
+**********************
+* 95-bit data source *
+**********************
+Symbol Length:            95 (bit)
+Nonzero Symbols:          20521847
+Data Size:                20581828 (# symbol)
+Expected Codeword Length: 24.3638 (bit)
+Compression Ratio:        3.89922
+Execution Time:           20.449 (second)
+
+**********************
+* 97-bit data source *
+**********************
+Symbol Length:            97 (bit)
+Nonzero Symbols:          20120685
+Data Size:                20157460 (# symbol)
+Expected Codeword Length: 24.3317 (bit)
+Compression Ratio:        3.98657
+Execution Time:           15.6172 (second)
+
+**********************
+* 98-bit data source *
+**********************
+Symbol Length:            98 (bit)
+Nonzero Symbols:          19894075
+Data Size:                19951772 (# symbol)
+Expected Codeword Length: 24.3124 (bit)
+Compression Ratio:        4.03087
+Execution Time:           15.0941 (second)
+
+**********************
+* 96-bit data source *
+**********************
+Symbol Length:            96 (bit)
+Nonzero Symbols:          16192948
+Data Size:                20367434 (# symbol)
+Expected Codeword Length: 23.8788 (bit)
+Compression Ratio:        4.0203
+Execution Time:           30.3606 (second)
+
+**********************
+* 99-bit data source *
+**********************
+Symbol Length:            99 (bit)
+Nonzero Symbols:          19726369
+Data Size:                19750239 (# symbol)
+Expected Codeword Length: 24.2986 (bit)
+Compression Ratio:        4.0743
+Execution Time:           20.395 (second)
+
+***********************
+* 100-bit data source *
+***********************
+Symbol Length:            100 (bit)
+Nonzero Symbols:          19476185
+Data Size:                19552736 (# symbol)
+Expected Codeword Length: 24.276 (bit)
+Compression Ratio:        4.1193
+Execution Time:           18.6514 (second)
+
+***********************
+* 101-bit data source *
+***********************
+Symbol Length:            101 (bit)
+Nonzero Symbols:          19344196
+Data Size:                19359145 (# symbol)
+Expected Codeword Length: 24.2652 (bit)
+Compression Ratio:        4.16234
+Execution Time:           17.6997 (second)
+
+***********************
+* 102-bit data source *
+***********************
+Symbol Length:            102 (bit)
+Nonzero Symbols:          19146735
+Data Size:                19169349 (# symbol)
+Expected Codeword Length: 24.2472 (bit)
+Compression Ratio:        4.20667
+Execution Time:           18.6155 (second)
+
+***********************
+* 103-bit data source *
+***********************
+Symbol Length:            103 (bit)
+Nonzero Symbols:          18974621
+Data Size:                18983239 (# symbol)
+Expected Codeword Length: 24.2315 (bit)
+Compression Ratio:        4.25066
+Execution Time:           18.709 (second)
+
+***********************
+* 104-bit data source *
+***********************
+Symbol Length:            104 (bit)
+Nonzero Symbols:          18720102
+Data Size:                18800708 (# symbol)
+Expected Codeword Length: 24.2066 (bit)
+Compression Ratio:        4.29635
+Execution Time:           16.4152 (second)
+
+***********************
+* 105-bit data source *
+***********************
+Symbol Length:            105 (bit)
+Nonzero Symbols:          18617233
+Data Size:                18621654 (# symbol)
+Expected Codeword Length: 24.1976 (bit)
+Compression Ratio:        4.33927
+Execution Time:           14.8846 (second)
+
+***********************
+* 106-bit data source *
+***********************
+Symbol Length:            106 (bit)
+Nonzero Symbols:          18439498
+Data Size:                18445978 (# symbol)
+Expected Codeword Length: 24.1802 (bit)
+Compression Ratio:        4.38375
+Execution Time:           17.6149 (second)
+
+***********************
+* 107-bit data source *
+***********************
+Symbol Length:            107 (bit)
+Nonzero Symbols:          18271068
+Data Size:                18273585 (# symbol)
+Expected Codeword Length: 24.1635 (bit)
+Compression Ratio:        4.42817
+Execution Time:           19.9364 (second)
+
+***********************
+* 108-bit data source *
+***********************
+Symbol Length:            108 (bit)
+Nonzero Symbols:          18095439
+Data Size:                18104386 (# symbol)
+Expected Codeword Length: 24.1456 (bit)
+Compression Ratio:        4.47286
+Execution Time:           15.0113 (second)
+
+***********************
+* 109-bit data source *
+***********************
+Symbol Length:            109 (bit)
+Nonzero Symbols:          17936577
+Data Size:                17938290 (# symbol)
+Expected Codeword Length: 24.1293 (bit)
+Compression Ratio:        4.51734
+Execution Time:           16.1616 (second)
+
+***********************
+* 110-bit data source *
+***********************
+Symbol Length:            110 (bit)
+Nonzero Symbols:          17772120
+Data Size:                17775215 (# symbol)
+Expected Codeword Length: 24.1119 (bit)
+Compression Ratio:        4.56206
+Execution Time:           16.7284 (second)
+
+***********************
+* 111-bit data source *
+***********************
+Symbol Length:            111 (bit)
+Nonzero Symbols:          17613749
+Data Size:                17615078 (# symbol)
+Expected Codeword Length: 24.095 (bit)
+Compression Ratio:        4.60677
+Execution Time:           15.4131 (second)
+
+***********************
+* 112-bit data source *
+***********************
+Symbol Length:            112 (bit)
+Nonzero Symbols:          17426578
+Data Size:                17457800 (# symbol)
+Expected Codeword Length: 24.0744 (bit)
+Compression Ratio:        4.65225
+Execution Time:           15.1201 (second)
+
+***********************
+* 113-bit data source *
+***********************
+Symbol Length:            113 (bit)
+Nonzero Symbols:          17302264
+Data Size:                17303307 (# symbol)
+Expected Codeword Length: 24.0607 (bit)
+Compression Ratio:        4.69646
+Execution Time:           14.9803 (second)
+
+***********************
+* 115-bit data source *
+***********************
+Symbol Length:            115 (bit)
+Nonzero Symbols:          17001533
+Data Size:                17002380 (# symbol)
+Expected Codeword Length: 24.0264 (bit)
+Compression Ratio:        4.7864
+Execution Time:           15.6763 (second)
+
+***********************
+* 114-bit data source *
+***********************
+Symbol Length:            114 (bit)
+Nonzero Symbols:          17149604
+Data Size:                17151523 (# symbol)
+Expected Codeword Length: 24.0434 (bit)
+Compression Ratio:        4.74142
+Execution Time:           15.6212 (second)
+
+***********************
+* 116-bit data source *
+***********************
+Symbol Length:            116 (bit)
+Nonzero Symbols:          16852586
+Data Size:                16855807 (# symbol)
+Expected Codeword Length: 24.0089 (bit)
+Compression Ratio:        4.83153
+Execution Time:           14.9715 (second)
+
+***********************
+* 117-bit data source *
+***********************
+Symbol Length:            117 (bit)
+Nonzero Symbols:          16711034
+Data Size:                16711741 (# symbol)
+Expected Codeword Length: 23.996 (bit)
+Compression Ratio:        4.87581
+Execution Time:           14.7611 (second)
+
+***********************
+* 119-bit data source *
+***********************
+Symbol Length:            119 (bit)
+Nonzero Symbols:          16430342
+Data Size:                16430871 (# symbol)
+Expected Codeword Length: 23.9789 (bit)
+Compression Ratio:        4.96271
+Execution Time:           14.5815 (second)
+
+***********************
+* 118-bit data source *
+***********************
+Symbol Length:            118 (bit)
+Nonzero Symbols:          16568847
+Data Size:                16570116 (# symbol)
+Expected Codeword Length: 23.9873 (bit)
+Compression Ratio:        4.91926
+Execution Time:           15.8743 (second)
+
+***********************
+* 120-bit data source *
+***********************
+Symbol Length:            120 (bit)
+Nonzero Symbols:          16288621
+Data Size:                16293947 (# symbol)
+Expected Codeword Length: 23.9697 (bit)
+Compression Ratio:        5.00633
+Execution Time:           13.7783 (second)
+
+***********************
+* 121-bit data source *
+***********************
+Symbol Length:            121 (bit)
+Nonzero Symbols:          16158905
+Data Size:                16159286 (# symbol)
+Expected Codeword Length: 23.9617 (bit)
+Compression Ratio:        5.04972
+Execution Time:           14.4646 (second)
+
+***********************
+* 122-bit data source *
+***********************
+Symbol Length:            122 (bit)
+Nonzero Symbols:          16026132
+Data Size:                16026833 (# symbol)
+Expected Codeword Length: 23.9531 (bit)
+Compression Ratio:        5.09329
+Execution Time:           12.8694 (second)
+
+***********************
+* 123-bit data source *
+***********************
+Symbol Length:            123 (bit)
+Nonzero Symbols:          15896212
+Data Size:                15896534 (# symbol)
+Expected Codeword Length: 23.9446 (bit)
+Compression Ratio:        5.13687
+Execution Time:           15.2472 (second)
+
+***********************
+* 124-bit data source *
+***********************
+Symbol Length:            124 (bit)
+Nonzero Symbols:          15767247
+Data Size:                15768336 (# symbol)
+Expected Codeword Length: 23.9359 (bit)
+Compression Ratio:        5.18051
+Execution Time:           13.6146 (second)
+
+***********************
+* 125-bit data source *
+***********************
+Symbol Length:            125 (bit)
+Nonzero Symbols:          15641954
+Data Size:                15642189 (# symbol)
+Expected Codeword Length: 23.9274 (bit)
+Compression Ratio:        5.22413
+Execution Time:           12.9503 (second)
+
+***********************
+* 126-bit data source *
+***********************
+Symbol Length:            126 (bit)
+Nonzero Symbols:          15517684
+Data Size:                15518045 (# symbol)
+Expected Codeword Length: 23.9188 (bit)
+Compression Ratio:        5.26782
+Execution Time:           13.5512 (second)
+
+***********************
+* 127-bit data source *
+***********************
+Symbol Length:            127 (bit)
+Nonzero Symbols:          15395688
+Data Size:                15395856 (# symbol)
+Expected Codeword Length: 23.9103 (bit)
+Compression Ratio:        5.31153
+Execution Time:           12.2058 (second)
+
+****************************
+* Textbook NTY Coding Test *
+****************************
+NTY Code for 'a'
+Expected: 00000, Returned: 00000
+NTY Code for 'b'
+Expected: 00001, Returned: 00001
+NTY Code for 'v'
+Expected: 1011, Returned: 1011
+
+*****************************
+* Textbook Encoding Example *
+*****************************
+a: 00000, len=5
++- <internal: 51/1>
+   +- <tag: 50/1>:a
+   +- <NTY: 49/0>
+
+a: 1, len=1
++- <internal: 51/2>
+   +- <tag: 50/2>:a
+   +- <NTY: 49/0>
+
+r: 010001, len=6
++- <internal: 51/3>
+   +- <tag: 50/2>:a
+   +- <internal: 49/1>
+      +- <tag: 48/1>:r
+      +- <NTY: 47/0>
+
+d: 0000011, len=7
++- <internal: 51/4>
+   +- <tag: 50/2>:a
+   +- <internal: 49/2>
+      +- <tag: 48/1>:r
+      +- <internal: 47/1>
+         +- <tag: 46/1>:d
+         +- <NTY: 45/0>
+
+v: 0001011, len=7
++- <internal: 51/4>
+   +- <tag: 50/2>:a
+   +- <internal: 49/2>
+      +- <tag: 48/1>:r
+      +- <internal: 47/1>
+         +- <tag: 46/1>:d
+         +- <internal: 45/1>
+            +- <tag: 44/1>:v
+            +- <NTY: 43/0>
+
++- <internal: 51/4>
+   +- <tag: 50/2>:a
+   +- <internal: 49/2>
+      +- <internal: 48/2>
+      |  +- <tag: 46/1>:d
+      |  +- <internal: 45/1>
+      |     +- <tag: 44/1>:v
+      |     +- <NTY: 43/0>
+      +- <tag: 47/1>:r
+
++- <internal: 51/5>
+   +- <internal: 50/3>
+   |  +- <internal: 48/2>
+   |  |  +- <tag: 46/1>:d
+   |  |  +- <internal: 45/1>
+   |  |     +- <tag: 44/1>:v
+   |  |     +- <NTY: 43/0>
+   |  +- <tag: 47/1>:r
+   +- <tag: 49/2>:a
+
+
+******************************
+* AdaHuff: 8-bit data source *
+******************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                244409199 (# symbol)
+Expected Codeword Length: 6.9881 (bit)
+Compression Ratio:        1.1448
+Execution Time:           254.699 (second)
+
+*******************************
+* AdaHuff: 32-bit data source *
+*******************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           7304
+Data Size:                61102300 (# symbol)
+Expected Codeword Length: 8.9204 (bit)
+Compression Ratio:        3.58728
+Execution Time:           85.9756 (second)
+
+***************************************
+* AdaHuff: 8-bit data source 0MB-40MB *
+***************************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.89839 (bit)
+Compression Ratio:        1.15969
+Execution Time:           48.4013 (second)
+
+****************************************
+* AdaHuff: 8-bit data source 40MB-80MB *
+****************************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           255
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.89546 (bit)
+Compression Ratio:        1.16018
+Execution Time:           48.8144 (second)
+
+*****************************************
+* AdaHuff: 8-bit data source 80MB-120MB *
+*****************************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.8978 (bit)
+Compression Ratio:        1.15979
+Execution Time:           46.4133 (second)
+
+******************************************
+* AdaHuff: 8-bit data source 120MB-160MB *
+******************************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.97184 (bit)
+Compression Ratio:        1.14747
+Execution Time:           47.9815 (second)
+
+******************************************
+* AdaHuff: 8-bit data source 160MB-200MB *
+******************************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                41943040 (# symbol)
+Expected Codeword Length: 6.99531 (bit)
+Compression Ratio:        1.14362
+Execution Time:           48.1169 (second)
+
+******************************************
+* AdaHuff: 8-bit data source 200MB-233MB *
+******************************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                34693999 (# symbol)
+Expected Codeword Length: 7.19144 (bit)
+Compression Ratio:        1.11243
+Execution Time:           42.0438 (second)
+
+****************************************
+* AdaHuff: 32-bit data source 0MB-40MB *
+****************************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           1638
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.61232 (bit)
+Compression Ratio:        3.71561
+Execution Time:           16.0613 (second)
+
+*****************************************
+* AdaHuff: 32-bit data source 40MB-80MB *
+*****************************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           1019
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.60167 (bit)
+Compression Ratio:        3.72021
+Execution Time:           15.971 (second)
+
+******************************************
+* AdaHuff: 32-bit data source 80MB-120MB *
+******************************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           1011
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.60802 (bit)
+Compression Ratio:        3.71746
+Execution Time:           15.6985 (second)
+
+*******************************************
+* AdaHuff: 32-bit data source 120MB-160MB *
+*******************************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           6508
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.89162 (bit)
+Compression Ratio:        3.59889
+Execution Time:           17.1221 (second)
+
+*******************************************
+* AdaHuff: 32-bit data source 160MB-200MB *
+*******************************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           1294
+Data Size:                10485760 (# symbol)
+Expected Codeword Length: 8.91528 (bit)
+Compression Ratio:        3.58934
+Execution Time:           16.9499 (second)
+
+*******************************************
+* AdaHuff: 32-bit data source 200MB-233MB *
+*******************************************
+Symbol Length:            32 (bit)
+Nonzero Symbol:           4555
+Data Size:                8673500 (# symbol)
+Expected Codeword Length: 9.67982 (bit)
+Compression Ratio:        3.30585
+Execution Time:           15.3831 (second)
+
+***************************************************
+* Adaptive Huffman Speed Test: Naive vs Optimized *
+***************************************************
+Symbol Length = 1               Naive       Optimized
+Expected Codeword Length (bit)  1.483341    1.483341
+Execution Time (second)         90.212915    454.968825
+
+Symbol Length = 2               Naive       Optimized
+Expected Codeword Length (bit)  2.195465    2.195465
+Execution Time (second)         90.152131    309.162098
+
+Symbol Length = 3               Naive       Optimized
+Expected Codeword Length (bit)  3.109152    3.109152
+Execution Time (second)         131.951600    287.437913
+
+Symbol Length = 4               Naive       Optimized
+Expected Codeword Length (bit)  3.919457    3.919457
+Execution Time (second)         191.987317    239.783719
+
+Symbol Length = 5               Naive       Optimized
+Expected Codeword Length (bit)  5.006141    5.006141
+Execution Time (second)         349.688311    274.830076
+
+Symbol Length = 6               Naive       Optimized
+Expected Codeword Length (bit)  5.880717    5.880717
+Execution Time (second)         601.959919    291.536100
+
+Symbol Length = 7               Naive       Optimized
+Expected Codeword Length (bit)  6.925921    6.925921
+Execution Time (second)         897.608989    249.966610
+
+Symbol Length = 8               Naive       Optimized
+Expected Codeword Length (bit)  6.988104    6.988104
+Execution Time (second)         956.515999    228.542053
+
+Symbol Length = 9               Naive       Optimized
+Expected Codeword Length (bit)  8.801539    8.801539
+Execution Time (second)         2671.225707    267.831473
+
+Symbol Length = 10              Naive       Optimized
+Expected Codeword Length (bit)  9.341387    9.341387
+Execution Time (second)         3670.161165    262.577468
+
+******************************
+* AdaHuff: 4-bit data source *
+******************************
+Symbol Length:            4 (bit)
+Nonzero Symbol:           16
+Data Size:                488818398 (# symbol)
+Expected Codeword Length: 3.91946 (bit)
+Compression Ratio:        1.02055
+Execution Time:           266.661 (second)
+
+******************************
+* AdaHuff: 3-bit data source *
+******************************
+Symbol Length:            3 (bit)
+Nonzero Symbol:           8
+Data Size:                651757864 (# symbol)
+Expected Codeword Length: 3.10915 (bit)
+Compression Ratio:        0.964893
+Execution Time:           271.889 (second)
+
+******************************
+* AdaHuff: 2-bit data source *
+******************************
+Symbol Length:            2 (bit)
+Nonzero Symbol:           4
+Data Size:                977636796 (# symbol)
+Expected Codeword Length: 2.19547 (bit)
+Compression Ratio:        0.910969
+Execution Time:           299.098 (second)
+
+******************************
+* AdaHuff: 1-bit data source *
+******************************
+Symbol Length:            1 (bit)
+Nonzero Symbol:           2
+Data Size:                1955273592 (# symbol)
+Expected Codeword Length: 1.48334 (bit)
+Compression Ratio:        0.674154
+Execution Time:           438.533 (second)
+
+******************************
+* AdaHuff: 5-bit data source *
+******************************
+Symbol Length:            5 (bit)
+Nonzero Symbol:           32
+Data Size:                391054719 (# symbol)
+Expected Codeword Length: 5.00614 (bit)
+Compression Ratio:        0.998773
+Execution Time:           271.759 (second)
+
+******************************
+* AdaHuff: 6-bit data source *
+******************************
+Symbol Length:            6 (bit)
+Nonzero Symbol:           64
+Data Size:                325878932 (# symbol)
+Expected Codeword Length: 5.88072 (bit)
+Compression Ratio:        1.02028
+Execution Time:           283.992 (second)
+
+******************************
+* AdaHuff: 7-bit data source *
+******************************
+Symbol Length:            7 (bit)
+Nonzero Symbol:           128
+Data Size:                279324799 (# symbol)
+Expected Codeword Length: 6.92592 (bit)
+Compression Ratio:        1.0107
+Execution Time:           300.075 (second)
+
+******************************
+* AdaHuff: 8-bit data source *
+******************************
+Symbol Length:            8 (bit)
+Nonzero Symbol:           256
+Data Size:                244409199 (# symbol)
+Expected Codeword Length: 6.9881 (bit)
+Compression Ratio:        1.1448
+Execution Time:           274.869 (second)
+
+******************************
+* AdaHuff: 9-bit data source *
+******************************
+Symbol Length:            9 (bit)
+Nonzero Symbol:           512
+Data Size:                217252622 (# symbol)
+Expected Codeword Length: 8.80154 (bit)
+Compression Ratio:        1.02255
+Execution Time:           324.011 (second)
+
+*******************************
+* AdaHuff: 10-bit data source *
+*******************************
+Symbol Length:            10 (bit)
+Nonzero Symbol:           1024
+Data Size:                195527360 (# symbol)
+Expected Codeword Length: 9.34139 (bit)
+Compression Ratio:        1.0705
+Execution Time:           316.343 (second)
+
+*******************************
+* AdaHuff: 11-bit data source *
+*******************************
+Symbol Length:            11 (bit)
+Nonzero Symbol:           2048
+Data Size:                177752145 (# symbol)
+Expected Codeword Length: 10.476 (bit)
+Compression Ratio:        1.05002
+Execution Time:           364.877 (second)
+
+*******************************
+* AdaHuff: 12-bit data source *
+*******************************
+Symbol Length:            12 (bit)
+Nonzero Symbol:           3869
+Data Size:                162939466 (# symbol)
+Expected Codeword Length: 9.74682 (bit)
+Compression Ratio:        1.23117
+Execution Time:           300.654 (second)
+
+*******************************
+* AdaHuff: 16-bit data source *
+*******************************
+Symbol Length:            16 (bit)
+Nonzero Symbol:           2874
+Data Size:                122204600 (# symbol)
+Expected Codeword Length: 8.59119 (bit)
+Compression Ratio:        1.86237
+Execution Time:           189.258 (second)
+
+*******************************
+* AdaHuff: 14-bit data source *
+*******************************
+Symbol Length:            14 (bit)
+Nonzero Symbol:           13236
+Data Size:                139662400 (# symbol)
+Expected Codeword Length: 11.462 (bit)
+Compression Ratio:        1.22143
+Execution Time:           414.067 (second)
+
+*******************************
+* AdaHuff: 13-bit data source *
+*******************************
+Symbol Length:            13 (bit)
+Nonzero Symbol:           8127
+Data Size:                150405661 (# symbol)
+Expected Codeword Length: 11.7788 (bit)
+Compression Ratio:        1.10368
+Execution Time:           450.565 (second)
+
+*******************************
+* AdaHuff: 15-bit data source *
+*******************************
+Symbol Length:            15 (bit)
+Nonzero Symbol:           26718
+Data Size:                130351573 (# symbol)
+Expected Codeword Length: 12.71 (bit)
+Compression Ratio:        1.18017
+Execution Time:           668.301 (second)
+
+*******************************
+* AdaHuff: 18-bit data source *
+*******************************
+Symbol Length:            18 (bit)
+Nonzero Symbol:           59003
+Data Size:                108626311 (# symbol)
+Expected Codeword Length: 12.7959 (bit)
+Compression Ratio:        1.4067
+Execution Time:           772.981 (second)
+
+*******************************
+* AdaHuff: 17-bit data source *
+*******************************
+Symbol Length:            17 (bit)
+Nonzero Symbol:           64672
+Data Size:                115016094 (# symbol)
+Expected Codeword Length: 13.4432 (bit)
+Compression Ratio:        1.26458
+Execution Time:           943.221 (second)
+
+*******************************
+* AdaHuff: 20-bit data source *
+*******************************
+Symbol Length:            20 (bit)
+Nonzero Symbol:           72913
+Data Size:                97763680 (# symbol)
+Expected Codeword Length: 12.2902 (bit)
+Compression Ratio:        1.62731
+Execution Time:           727.845 (second)
+
+*******************************
+* AdaHuff: 19-bit data source *
+*******************************
+Symbol Length:            19 (bit)
+Nonzero Symbol:           145885
+Data Size:                102909137 (# symbol)
+Expected Codeword Length: 14.0973 (bit)
+Compression Ratio:        1.34778
+Execution Time:           1778.11 (second)
+
+*******************************
+* AdaHuff: 22-bit data source *
+*******************************
+Symbol Length:            22 (bit)
+Nonzero Symbol:           256320
+Data Size:                88876073 (# symbol)
+Expected Codeword Length: 14.0061 (bit)
+Compression Ratio:        1.57074
+Execution Time:           2939.39 (second)
+
+*******************************
+* AdaHuff: 24-bit data source *
+*******************************
+Symbol Length:            24 (bit)
+Nonzero Symbol:           220440
+Data Size:                81469733 (# symbol)
+Expected Codeword Length: 12.1517 (bit)
+Compression Ratio:        1.97504
+Execution Time:           2011.49 (second)
+
+*******************************
+* AdaHuff: 21-bit data source *
+*******************************
+Symbol Length:            21 (bit)
+Nonzero Symbol:           315590
+Data Size:                93108267 (# symbol)
+Expected Codeword Length: 14.734 (bit)
+Compression Ratio:        1.42527
+Execution Time:           4234.46 (second)
+
+*******************************
+* AdaHuff: 23-bit data source *
+*******************************
+Symbol Length:            23 (bit)
+Nonzero Symbol:           571663
+Data Size:                85011896 (# symbol)
+Expected Codeword Length: 15.3901 (bit)
+Compression Ratio:        1.49446
+Execution Time:           9544.96 (second)
+
+**************************************
+* Extended Huffman: 8-Bit Experiment *
+**************************************
+Extended Symbol Width:    8 * 1 = 8 (bit)
+Nonzero Symbols:          256
+Effective Data Size:      244409199 (# symbol)
+Expected Codeword Length: 6.98806 (bit)
+Compression Ratio:        1.14481
+Execution Time:           0.597219 (second)
+
+Extended Symbol Width:    8 * 2 = 16 (bit)
+Nonzero Symbols:          65536
+Effective Data Size:      59735856555821601 (# symbol)
+Expected Codeword Length: 13.9513 (bit)
+Compression Ratio:        1.14684
+Execution Time:           0.629464 (second)
+
+Extended Symbol Width:    8 * 3 = 24 (bit)
+Nonzero Symbols:          16777216
+Effective Data Size:      3660600578598446927791467 (# symbol)
+Expected Codeword Length: 20.9125 (bit)
+Compression Ratio:        1.14764
+Execution Time:           16.2982 (second)
+
+***************************************
+* Extended Huffman: 16-Bit Experiment *
+***************************************
+Extended Symbol Width:    16 * 1 = 16 (bit)
+Nonzero Symbols:          2874
+Effective Data Size:      122204600 (# symbol)
+Expected Codeword Length: 8.59072 (bit)
+Compression Ratio:        1.86248
+Execution Time:           0.858988 (second)
+
+Extended Symbol Width:    16 * 2 = 32 (bit)
+Nonzero Symbols:          8259876
+Effective Data Size:      14933964261160000 (# symbol)
+Expected Codeword Length: 17.1592 (bit)
+Compression Ratio:        1.86489
+Execution Time:           13.0688 (second)
+
+***************************************
+* Extended Huffman: 32-Bit Experiment *
+***************************************
+Extended Symbol Width:    32 * 1 = 32 (bit)
+Nonzero Symbols:          7304
+Effective Data Size:      61102300 (# symbol)
+Expected Codeword Length: 8.91635 (bit)
+Compression Ratio:        3.58891
+Execution Time:           0.581205 (second)
+
+Extended Symbol Width:    32 * 2 = 64 (bit)
+Nonzero Symbols:          53348416
+Effective Data Size:      3733491065290000 (# symbol)
+Expected Codeword Length: 17.8148 (bit)
+Compression Ratio:        3.59252
+Execution Time:           120.421 (second)
+
